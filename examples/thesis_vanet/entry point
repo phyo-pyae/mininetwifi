@@ -9,10 +9,11 @@ import sys
 # Set environment
 os.environ['SUMO_HOME'] = '/usr/share/sumo'
 
-# Add paths
+# Add mininet_wifi directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'mininet_wifi'))
 
-from mininet_wifi.vanet_network import create_vanet_topology
+# Now import
+from vanet_network import create_vanet_topology
 
 if __name__ == '__main__':
     print("=" * 70)
