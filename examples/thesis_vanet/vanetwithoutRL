@@ -1,0 +1,137 @@
+#!/usr/bin/env python3
+"""
+VANET Network Simulation with Mininet-wifi + SUMO
+20 vehicles, 4 networks, no RL yet
+"""
+
+import os
+import sys
+
+# Add SUMO tools to path
+if 'SUMO_HOME' in os.environ:
+    sys.path.append(os.path.join(os.environ['SUMO_HOME'], 'tools'))
+else:
+    sys.exit("Please set SUMO_HOME environment variable")
+
+from mininet.log import setLogLevel, info
+from mn_wifi.cli import CLI
+from mn_wifi.net import Mininet_wifi
+from mn_wifi.sumo.runner import sumo
+from mn_wifi.link import wmediumd, ITSLink
+from mn_wifi.wmediumdConnector import interference
+
+
+def create_vanet_topology():
+    """Create VANET topology with 20 vehicles and 4 networks"""
+    
+    net = Mininet_wifi(link=wmediumd, wmediumd_mode=interference)
+    
+    info("*** Creating 20 vehicles\n")
+    # Create 20 cars (MATCHES SUMO!)
+    for id in range(0, 20):
+        net.addCar('car%s' % (id+1), wlans=2, encrypt=['wpa2', ''])
+    
+    info("*** Creating 4 networks with RSUs\n")
+    
+    # Common AP configuration
+    kwargs = {'ssid': 'vanet-ssid', 'mode': 'g', 'passwd': '123456789a',
+              'encrypt': 'wpa2', 'failMode': 'standalone', 'datapath': 'user'}
+    
+    # NETWORK A (2 RSUs)
+    info("Creating Network A RSUs\n")
+    rsu_a1 = net.addAccessPoint('rsu_a1', mac='00:00:00:11:01:01', 
+                                channel='1', position='500,500,0', **kwargs)
+    rsu_a2 = net.addAccessPoint('rsu_a2', mac='00:00:00:11:01:02', 
+                                channel='6', position='700,500,0', **kwargs)
+    
+    # NETWORK B (2 RSUs)
+    info("Creating Network B RSUs\n")
+    rsu_b1 = net.addAccessPoint('rsu_b1', mac='00:00:00:11:02:01', 
+                                channel='11', position='1500,500,0', **kwargs)
+    rsu_b2 = net.addAccessPoint('rsu_b2', mac='00:00:00:11:02:02', 
+                                channel='1', position='1700,500,0', **kwargs)
+    
+    # NETWORK C (2 RSUs)
+    info("Creating Network C RSUs\n")
+    rsu_c1 = net.addAccessPoint('rsu_c1', mac='00:00:00:11:03:01', 
+                                channel='6', position='500,1500,0', **kwargs)
+    rsu_c2 = net.addAccessPoint('rsu_c2', mac='00:00:00:11:03:02', 
+                                channel='11', position='700,1500,0', **kwargs)
+    
+    # NETWORK D (2 RSUs)
+    info("Creating Network D RSUs\n")
+    rsu_d1 = net.addAccessPoint('rsu_d1', mac='00:00:00:11:04:01', 
+                                channel='1', position='1500,1500,0', **kwargs)
+    rsu_d2 = net.addAccessPoint('rsu_d2', mac='00:00:00:11:04:02', 
+                                channel='6', position='1700,1500,0', **kwargs)
+    
+    info("*** Configuring Propagation Model\n")
+    net.setPropagationModel(model="logDistance", exp=2.8)
+    
+    info("*** Configuring nodes\n")
+    net.configureNodes()
+    
+    # Connect RSUs (backbone network)
+    info("*** Creating backbone network\n")
+    # Network A backbone
+    net.addLink(rsu_a1, rsu_a2)
+    
+    # Network B backbone
+    net.addLink(rsu_b1, rsu_b2)
+    
+    # Network C backbone
+    net.addLink(rsu_c1, rsu_c2)
+    
+    # Network D backbone
+    net.addLink(rsu_d1, rsu_d2)
+    
+    # Connect networks to each other
+    net.addLink(rsu_a1, rsu_b1)  # A-B connection
+    net.addLink(rsu_c1, rsu_d1)  # C-D connection
+    net.addLink(rsu_b1, rsu_d1)  # B-D connection
+    
+    # Add V2V communication for all 20 cars
+    info("*** Setting up V2V communication\n")
+    for car in net.cars:
+        net.addLink(car, intf=car.wintfs[1].name,
+                    cls=ITSLink, band=20, channel=181)
+    
+    # Connect to SUMO
+    info("*** Connecting to SUMO simulator\n")
+    sumo_config = os.path.join(os.path.dirname(__file__), '..', 'sumo', 'config.sumocfg')
+    
+    net.useExternalProgram(program=sumo, port=8813,
+                           config_file=sumo_config,
+                           extra_params=["--start --delay 1000"],
+                           clients=1, exec_order=0)
+    
+    info("*** Building network\n")
+    net.build()
+    
+    # Start all RSUs (APs)
+    for rsu in net.aps:
+        rsu.start([])
+    
+    # Assign IP addresses to all 20 cars
+    info("*** Assigning IP addresses to 20 vehicles\n")
+    for id, car in enumerate(net.cars):
+        car.setIP('192.168.0.{}/24'.format(id+1),
+                  intf='{}'.format(car.wintfs[0].name))
+        car.setIP('192.168.1.{}/24'.format(id+1),
+                  intf='{}'.format(car.wintfs[1].name))
+    
+    # Enable telemetry
+    nodes = net.cars + net.aps
+    net.telemetry(nodes=nodes, data_type='position',
+                  min_x=0, min_y=0, max_x=2000, max_y=2000)
+    
+    info("*** Running CLI\n")
+    CLI(net)
+    
+    info("*** Stopping network\n")
+    net.stop()
+
+
+if __name__ == '__main__':
+    setLogLevel('info')
+    create_vanet_topology()
