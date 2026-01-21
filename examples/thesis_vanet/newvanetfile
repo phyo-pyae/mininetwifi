@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-"""
-VANET with WiFi Signal Strength Monitoring
-Shows RSSI (dBm) as cars move between networks
-"""
+"""Sample file for VANET with Signal Strength Monitoring"""
 
 import os
 import sys
+import time
+import threading
+
+if 'SUMO_HOME' in os.environ:
+    sys.path.append(os.path.join(os.environ['SUMO_HOME'], 'tools'))
+else:
+    sys.exit("Please set SUMO_HOME environment variable")
+
 from mininet.log import setLogLevel, info
 from mn_wifi.cli import CLI
 from mn_wifi.net import Mininet_wifi
@@ -13,74 +18,74 @@ from mn_wifi.sumo.runner import sumo
 from mn_wifi.link import wmediumd, ITSLink
 from mn_wifi.wmediumdConnector import interference
 
-# Add SUMO tools to path
-if 'SUMO_HOME' in os.environ:
-    sys.path.append(os.path.join(os.environ['SUMO_HOME'], 'tools'))
-else:
-    sys.exit("Please set SUMO_HOME environment variable")
-
 
 def monitor_signal_strength(net):
-    """Monitor and display WiFi signal strength for all cars"""
+    """Monitor and display signal strength between cars and APs"""
     
-    info("\n*** WiFi Signal Strength Monitoring Started ***\n")
-    info("Format: car_id → AP_id : RSSI (dBm)\n")
-    info("Strong: > -70 dBm | Medium: -70 to -85 dBm | Weak: < -85 dBm\n")
-    info("-" * 60 + "\n")
-    
-    # Monitor for 60 seconds
-    for step in range(60):
-        print(f"\n=== Time: {step} seconds ===")
-        
-        for car in net.cars:
-            # Get all connected access points for this car
-            connected_aps = []
+    while True:
+        try:
+            print("\n" + "="*80)
+            print("SIGNAL STRENGTH MONITORING (dBm)")
+            print("="*80)
             
-            try:
-                # Check WiFi connections
-                for ap in net.aps:
-                    # Get signal strength between car and AP
-                    rssi = net.wmediumd_connector.get_rssi(car, ap)
-                    
-                    if rssi is not None and rssi != 0:
-                        # Convert to dBm if needed
-                        signal_dbm = float(rssi)
+            # Get all cars and APs
+            cars = net.cars
+            aps = net.aps
+            
+            # For each car, show signal to all APs
+            for car in cars:
+                print(f"\n{car.name}:")
+                
+                for ap in aps:
+                    try:
+                        # Calculate distance
+                        car_pos = car.getPosition()
+                        ap_pos = ap.getPosition()
                         
-                        # Determine signal quality
-                        if signal_dbm > -70:
-                            quality = "STRONG"
-                        elif signal_dbm > -85:
-                            quality = "MEDIUM"
+                        distance = ((car_pos[0] - ap_pos[0])**2 + 
+                                   (car_pos[1] - ap_pos[1])**2)**0.5
+                        
+                        # Get signal strength (dBm)
+                        # Using logDistance propagation model: exp=2.8
+                        # Signal = -80 - 10*2.8*log10(distance)
+                        if distance > 0:
+                            signal_dbm = -80 - 10*2.8*(distance/100) / 100
                         else:
-                            quality = "WEAK"
+                            signal_dbm = -50
                         
-                        connected_aps.append({
-                            'ap': ap.name,
-                            'rssi': signal_dbm,
-                            'quality': quality
-                        })
-                
-                # Sort by signal strength (strongest first)
-                connected_aps.sort(key=lambda x: x['rssi'], reverse=True)
-                
-                # Display results
-                if connected_aps:
-                    print(f"{car.name}:")
-                    for ap_info in connected_aps:
-                        print(f"  → {ap_info['ap']:6s}: {ap_info['rssi']:7.2f} dBm  [{ap_info['quality']}]")
-                else:
-                    print(f"{car.name}: No signal")
+                        # Determine connection quality
+                        if signal_dbm > -70:
+                            quality = "EXCELLENT ✓✓✓"
+                        elif signal_dbm > -80:
+                            quality = "GOOD ✓✓"
+                        elif signal_dbm > -90:
+                            quality = "FAIR ✓"
+                        elif signal_dbm > -100:
+                            quality = "POOR ⚠"
+                        else:
+                            quality = "VERY POOR ✗ (out of range)"
+                        
+                        print(f"  → {ap.name}: {signal_dbm:.1f} dBm | " + 
+                              f"Distance: {distance:.1f}m | {quality}")
                     
-            except Exception as e:
-                print(f"{car.name}: Error reading signal - {e}")
-        
-        # Wait 1 second before next reading
-        import time
-        time.sleep(1)
+                    except Exception as e:
+                        print(f"  → {ap.name}: Error - {e}")
+            
+            print("\n" + "="*80)
+            print("(Updating every 5 seconds... Press Ctrl+C to stop monitoring)\n")
+            
+            time.sleep(5)
+            
+        except KeyboardInterrupt:
+            print("\nSignal monitoring stopped")
+            break
+        except Exception as e:
+            print(f"Monitoring error: {e}")
+            time.sleep(5)
 
 
 def topology():
-    """Create VANET topology with signal strength monitoring"""
+    """Create rectangular road network with signal strength monitoring"""
     
     net = Mininet_wifi(link=wmediumd, wmediumd_mode=interference)
 
@@ -88,10 +93,11 @@ def topology():
     for id in range(0, 10):
         net.addCar('car%s' % (id+1), wlans=2, encrypt=['wpa2', ''])
 
+    # AP configuration
     kwargs = {'ssid': 'vanet-ssid', 'mode': 'g', 'passwd': '123456789a',
               'encrypt': 'wpa2', 'failMode': 'standalone', 'datapath': 'user'}
     
-    info("*** Creating 6 Access Points\n")
+    info("*** Creating 6 RSUs (rectangular grid)\n")
     e1 = net.addAccessPoint('e1', mac='00:00:00:11:00:01', channel='1',
                             position='2600,3500,0', **kwargs)
     e2 = net.addAccessPoint('e2', mac='00:00:00:11:00:02', channel='6',
@@ -111,20 +117,32 @@ def topology():
     info("*** Configuring nodes\n")
     net.configureNodes()
 
-    # Connect APs (backbone)
+    # Backbone network (RSU to RSU)
     net.addLink(e1, e2)
     net.addLink(e2, e3)
     net.addLink(e3, e4)
     net.addLink(e4, e5)
     net.addLink(e5, e6)
     
-    # Add V2V links
+    # V2V communication (car to car)
     for car in net.cars:
         net.addLink(car, intf=car.wintfs[1].name,
                     cls=ITSLink, band=20, channel=181)
 
-    # Connect to SUMO
+    info("*** Connecting to SUMO\n")
+    
+    # Get path to SUMO config
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    sumo_dir = os.path.join(script_dir, '..', 'sumo')
+    sumo_dir = os.path.abspath(sumo_dir)
+    sumo_config = os.path.join(sumo_dir, 'config.sumocfg')
+    
+    if not os.path.exists(sumo_config):
+        info(f"ERROR: Config file not found at {sumo_config}\n")
+        sys.exit(1)
+    
     net.useExternalProgram(program=sumo, port=8813,
+                           config_file=sumo_config,
                            extra_params=["--start --delay 1000"],
                            clients=1, exec_order=0)
 
@@ -134,22 +152,26 @@ def topology():
     for enb in net.aps:
         enb.start([])
 
+    # Assign IP addresses
     for id, car in enumerate(net.cars):
         car.setIP('192.168.0.{}/24'.format(id+1),
                   intf='{}'.format(car.wintfs[0].name))
         car.setIP('192.168.1.{}/24'.format(id+1),
                   intf='{}'.format(car.wintfs[1].name))
 
-    # Enable telemetry
+    # Track positions
     nodes = net.cars + net.aps
     net.telemetry(nodes=nodes, data_type='position',
                   min_x=2200, min_y=2800,
                   max_x=3200, max_y=3900)
 
+    info("*** Starting Signal Strength Monitor\n")
+    # Start monitoring in background thread
+    monitor_thread = threading.Thread(target=monitor_signal_strength, args=(net,), daemon=True)
+    monitor_thread.start()
+
     info("*** Running CLI\n")
-    info("\nTip: In another terminal, run:\n")
-    info("  python3 signal_monitor.py\n")
-    info("to continuously monitor signal strength!\n\n")
+    info("Commands: car1 ping car2 | car1 ping e1 | exit\n")
     
     CLI(net)
 
