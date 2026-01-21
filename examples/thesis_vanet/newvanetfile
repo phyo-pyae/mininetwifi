@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Sample file for VANET with Signal Strength Monitoring"""
+"""
+VANET Network Simulation with Mininet-wifi + SUMO
+20 vehicles, 4 networks, SIGNAL STRENGTH MONITORING
+"""
 
 import os
 import sys
 import time
-import threading
 
+# Add SUMO tools to path
 if 'SUMO_HOME' in os.environ:
     sys.path.append(os.path.join(os.environ['SUMO_HOME'], 'tools'))
 else:
@@ -19,166 +22,214 @@ from mn_wifi.link import wmediumd, ITSLink
 from mn_wifi.wmediumdConnector import interference
 
 
-def monitor_signal_strength(net):
-    """Monitor and display signal strength between cars and APs"""
-    
-    while True:
-        try:
-            print("\n" + "="*80)
-            print("SIGNAL STRENGTH MONITORING (dBm)")
-            print("="*80)
-            
-            # Get all cars and APs
-            cars = net.cars
-            aps = net.aps
-            
-            # For each car, show signal to all APs
-            for car in cars:
-                print(f"\n{car.name}:")
-                
-                for ap in aps:
-                    try:
-                        # Calculate distance
-                        car_pos = car.getPosition()
-                        ap_pos = ap.getPosition()
-                        
-                        distance = ((car_pos[0] - ap_pos[0])**2 + 
-                                   (car_pos[1] - ap_pos[1])**2)**0.5
-                        
-                        # Get signal strength (dBm)
-                        # Using logDistance propagation model: exp=2.8
-                        # Signal = -80 - 10*2.8*log10(distance)
-                        if distance > 0:
-                            signal_dbm = -80 - 10*2.8*(distance/100) / 100
-                        else:
-                            signal_dbm = -50
-                        
-                        # Determine connection quality
-                        if signal_dbm > -70:
-                            quality = "EXCELLENT ✓✓✓"
-                        elif signal_dbm > -80:
-                            quality = "GOOD ✓✓"
-                        elif signal_dbm > -90:
-                            quality = "FAIR ✓"
-                        elif signal_dbm > -100:
-                            quality = "POOR ⚠"
-                        else:
-                            quality = "VERY POOR ✗ (out of range)"
-                        
-                        print(f"  → {ap.name}: {signal_dbm:.1f} dBm | " + 
-                              f"Distance: {distance:.1f}m | {quality}")
-                    
-                    except Exception as e:
-                        print(f"  → {ap.name}: Error - {e}")
-            
-            print("\n" + "="*80)
-            print("(Updating every 5 seconds... Press Ctrl+C to stop monitoring)\n")
-            
-            time.sleep(5)
-            
-        except KeyboardInterrupt:
-            print("\nSignal monitoring stopped")
-            break
-        except Exception as e:
-            print(f"Monitoring error: {e}")
-            time.sleep(5)
-
-
-def topology():
-    """Create rectangular road network with signal strength monitoring"""
+def create_vanet_topology():
+    """Create VANET topology with 20 vehicles and 4 networks + SIGNAL MONITORING"""
     
     net = Mininet_wifi(link=wmediumd, wmediumd_mode=interference)
-
-    info("*** Creating 10 vehicles\n")
-    for id in range(0, 10):
+    
+    info("*** Creating 20 vehicles\n")
+    # Create 20 cars (MATCHES SUMO!)
+    for id in range(0, 20):
         net.addCar('car%s' % (id+1), wlans=2, encrypt=['wpa2', ''])
-
-    # AP configuration
+    
+    info("*** Creating 4 networks with RSUs\n")
+    
+    # Common AP configuration
     kwargs = {'ssid': 'vanet-ssid', 'mode': 'g', 'passwd': '123456789a',
               'encrypt': 'wpa2', 'failMode': 'standalone', 'datapath': 'user'}
     
-    info("*** Creating 6 RSUs (rectangular grid)\n")
-    e1 = net.addAccessPoint('e1', mac='00:00:00:11:00:01', channel='1',
-                            position='2600,3500,0', **kwargs)
-    e2 = net.addAccessPoint('e2', mac='00:00:00:11:00:02', channel='6',
-                            position='2800,3500,0', **kwargs)
-    e3 = net.addAccessPoint('e3', mac='00:00:00:11:00:03', channel='11',
-                            position='3000,3500,0', **kwargs)
-    e4 = net.addAccessPoint('e4', mac='00:00:00:11:00:04', channel='1',
-                            position='2600,3300,0', **kwargs)
-    e5 = net.addAccessPoint('e5', mac='00:00:00:11:00:05', channel='6',
-                            position='2800,3300,0', **kwargs)
-    e6 = net.addAccessPoint('e6', mac='00:00:00:11:00:06', channel='11',
-                            position='3000,3300,0', **kwargs)
-
-    info("*** Configuring Propagation Model (logDistance, exp=2.8)\n")
+    # NETWORK A (2 RSUs)
+    info("Creating Network A RSUs\n")
+    rsu_a1 = net.addAccessPoint('rsu_a1', mac='00:00:00:11:01:01', 
+                                channel='1', position='500,500,0', **kwargs)
+    rsu_a2 = net.addAccessPoint('rsu_a2', mac='00:00:00:11:01:02', 
+                                channel='6', position='700,500,0', **kwargs)
+    
+    # NETWORK B (2 RSUs)
+    info("Creating Network B RSUs\n")
+    rsu_b1 = net.addAccessPoint('rsu_b1', mac='00:00:00:11:02:01', 
+                                channel='11', position='1500,500,0', **kwargs)
+    rsu_b2 = net.addAccessPoint('rsu_b2', mac='00:00:00:11:02:02', 
+                                channel='1', position='1700,500,0', **kwargs)
+    
+    # NETWORK C (2 RSUs)
+    info("Creating Network C RSUs\n")
+    rsu_c1 = net.addAccessPoint('rsu_c1', mac='00:00:00:11:03:01', 
+                                channel='6', position='500,1500,0', **kwargs)
+    rsu_c2 = net.addAccessPoint('rsu_c2', mac='00:00:00:11:03:02', 
+                                channel='11', position='700,1500,0', **kwargs)
+    
+    # NETWORK D (2 RSUs)
+    info("Creating Network D RSUs\n")
+    rsu_d1 = net.addAccessPoint('rsu_d1', mac='00:00:00:11:04:01', 
+                                channel='1', position='1500,1500,0', **kwargs)
+    rsu_d2 = net.addAccessPoint('rsu_d2', mac='00:00:00:11:04:02', 
+                                channel='6', position='1700,1500,0', **kwargs)
+    
+    info("*** Configuring Propagation Model\n")
     net.setPropagationModel(model="logDistance", exp=2.8)
-
+    
     info("*** Configuring nodes\n")
     net.configureNodes()
-
-    # Backbone network (RSU to RSU)
-    net.addLink(e1, e2)
-    net.addLink(e2, e3)
-    net.addLink(e3, e4)
-    net.addLink(e4, e5)
-    net.addLink(e5, e6)
     
-    # V2V communication (car to car)
+    # Connect RSUs (backbone network)
+    info("*** Creating backbone network\n")
+    net.addLink(rsu_a1, rsu_a2)
+    net.addLink(rsu_b1, rsu_b2)
+    net.addLink(rsu_c1, rsu_c2)
+    net.addLink(rsu_d1, rsu_d2)
+    net.addLink(rsu_a1, rsu_b1)
+    net.addLink(rsu_c1, rsu_d1)
+    net.addLink(rsu_b1, rsu_d1)
+    
+    # Add V2V communication for all 20 cars
+    info("*** Setting up V2V communication\n")
     for car in net.cars:
         net.addLink(car, intf=car.wintfs[1].name,
                     cls=ITSLink, band=20, channel=181)
-
-    info("*** Connecting to SUMO\n")
     
-    # Get path to SUMO config
+    # Connect to SUMO WITH PROPER PATH HANDLING
+    info("*** Connecting to SUMO simulator\n")
+    
+    # Get absolute paths
     script_dir = os.path.dirname(os.path.abspath(__file__))
     sumo_dir = os.path.join(script_dir, '..', 'sumo')
     sumo_dir = os.path.abspath(sumo_dir)
     sumo_config = os.path.join(sumo_dir, 'config.sumocfg')
     
+    info(f"SUMO directory: {sumo_dir}\n")
+    info(f"Config file: {sumo_config}\n")
+    
+    # Verify files exist
     if not os.path.exists(sumo_config):
         info(f"ERROR: Config file not found at {sumo_config}\n")
         sys.exit(1)
+    
+    routes_file = os.path.join(sumo_dir, 'routes.rou.xml')
+    if not os.path.exists(routes_file):
+        info(f"ERROR: Routes file not found at {routes_file}\n")
+        sys.exit(1)
+    
+    map_file = os.path.join(sumo_dir, 'map.net.xml')
+    if not os.path.exists(map_file):
+        info(f"ERROR: Map file not found at {map_file}\n")
+        sys.exit(1)
+    
+    info(f"✓ All SUMO files found\n")
     
     net.useExternalProgram(program=sumo, port=8813,
                            config_file=sumo_config,
                            extra_params=["--start --delay 1000"],
                            clients=1, exec_order=0)
-
-    info("*** Starting network\n")
+    
+    info("*** Building network\n")
     net.build()
-
-    for enb in net.aps:
-        enb.start([])
-
-    # Assign IP addresses
+    
+    # Start all RSUs (APs)
+    for rsu in net.aps:
+        rsu.start([])
+    
+    # Assign IP addresses to all 20 cars
+    info("*** Assigning IP addresses to 20 vehicles\n")
     for id, car in enumerate(net.cars):
         car.setIP('192.168.0.{}/24'.format(id+1),
                   intf='{}'.format(car.wintfs[0].name))
         car.setIP('192.168.1.{}/24'.format(id+1),
                   intf='{}'.format(car.wintfs[1].name))
-
-    # Track positions
+    
+    # Enable telemetry
     nodes = net.cars + net.aps
     net.telemetry(nodes=nodes, data_type='position',
-                  min_x=2200, min_y=2800,
-                  max_x=3200, max_y=3900)
-
-    info("*** Starting Signal Strength Monitor\n")
+                  min_x=0, min_y=0, max_x=2000, max_y=2000)
+    
+    # ============================================
+    # NEW: SIGNAL STRENGTH MONITORING
+    # ============================================
+    info("*** Starting Signal Strength Monitoring\n\n")
+    
+    # Print header
+    info("=== SIGNAL STRENGTH MONITORING ===\n")
+    info("Format: car_id position(x,y) rsu_name signal(dBm) distance(m)\n")
+    info("=====================================\n\n")
+    
+    # Create monitoring file
+    log_file = os.path.join(os.path.dirname(__file__), '..', 'signal_strength.log')
+    with open(log_file, 'w') as f:
+        f.write("Time(s),Car_ID,Car_X,Car_Y,RSU_Name,RSU_X,RSU_Y,Signal_dBm,Distance_m\n")
+    
+    info(f"Logging signal strength to: {log_file}\n\n")
+    
+    # Signal monitoring function
+    def monitor_signal_strength():
+        """Monitor signal strength between cars and RSUs"""
+        try:
+            import math
+            
+            while True:
+                time.sleep(2)  # Monitor every 2 seconds
+                
+                # Get current time from simulation
+                sim_time = net.time()
+                
+                # For each car, check signal to each RSU
+                for car in net.cars:
+                    car_pos = car.getPosition()
+                    
+                    # Check signal to each RSU
+                    for rsu in net.aps:
+                        rsu_pos = rsu.getPosition()
+                        
+                        # Calculate distance
+                        dx = car_pos[0] - rsu_pos[0]
+                        dy = car_pos[1] - rsu_pos[1]
+                        distance = math.sqrt(dx**2 + dy**2)
+                        
+                        # Calculate signal strength using log distance model
+                        # Signal = -80 - 20*log10(distance) (dBm)
+                        if distance > 1:
+                            signal_dbm = -80 - 20 * math.log10(distance)
+                        else:
+                            signal_dbm = -80
+                        
+                        # Log to file
+                        with open(log_file, 'a') as f:
+                            f.write(f"{sim_time:.1f},{car.name},{car_pos[0]:.1f},{car_pos[1]:.1f},{rsu.name},{rsu_pos[0]:.1f},{rsu_pos[1]:.1f},{signal_dbm:.1f},{distance:.1f}\n")
+                        
+                        # Print strong signals only (> -100 dBm means in range)
+                        if signal_dbm > -100:
+                            info(f"[{sim_time:.1f}s] {car.name} at ({car_pos[0]:.0f},{car_pos[1]:.0f}) → {rsu.name}: {signal_dbm:.1f} dBm (dist: {distance:.1f}m)\n")
+        
+        except KeyboardInterrupt:
+            info("\nSignal monitoring stopped\n")
+            pass
+    
     # Start monitoring in background thread
-    monitor_thread = threading.Thread(target=monitor_signal_strength, args=(net,), daemon=True)
+    import threading
+    monitor_thread = threading.Thread(target=monitor_signal_strength, daemon=True)
     monitor_thread.start()
-
+    
+    # ============================================
+    # END SIGNAL STRENGTH MONITORING
+    # ============================================
+    
     info("*** Running CLI\n")
-    info("Commands: car1 ping car2 | car1 ping e1 | exit\n")
+    info("\n=== COMMANDS TO TEST SIGNAL STRENGTH ===\n")
+    info("1. Basic connectivity test:\n")
+    info("   mininet-wifi> car1 ping car2\n\n")
+    info("2. Car to RSU test:\n")
+    info("   mininet-wifi> car1 ping rsu_a1\n\n")
+    info("3. Cross-network test:\n")
+    info("   mininet-wifi> car1 ping rsu_b1\n\n")
+    info("4. Monitor signal changes as car moves:\n")
+    info("   mininet-wifi> car5 ping car10 (watch signal in background logs)\n\n")
+    info("=========================================\n\n")
     
     CLI(net)
-
+    
     info("*** Stopping network\n")
     net.stop()
 
 
 if __name__ == '__main__':
     setLogLevel('info')
-    topology()
+    create_vanet_topology()
