@@ -1,0 +1,2640 @@
+11    new-ssid-3  ...   [15.0, 14.9, 15.51, 14.658999999999999, 21.9931]
+12    new-ssid-4  ...  [96.0, 88.2, 98.38000000000001, 91.04200000000...
+13    new-ssid-4  ...                                              [8.0]
+14    new-ssid-4  ...  [3.0, 4.1000000000000005, 11.990000000000002, ...
+15    new-ssid-4  ...  [16.0, 16.9, 15.709999999999999, 14.8389999999...
+16    new-ssid-5  ...                                       [16.0, 17.9]
+17    new-ssid-5  ...                                 [15.0, 14.0, 13.0]
+18    new-ssid-5  ...                                         [7.0, 8.2]
+19    new-ssid-5  ...                                             [26.0]
+20    new-ssid-5  ...             [10.0, 9.4, 10.66, 11.394000000000002]
+21    new-ssid-6  ...  [29.0, 28.700000000000003, 27.930000000000003,...
+22    new-ssid-6  ...  [6.0, 6.0, 10.200000000000001, 13.780000000000...
+23    new-ssid-6  ...                                             [76.0]
+24    new-ssid-6  ...  [12.0, 11.600000000000001, 12.14, 11.326, 14.8...
+25    new-ssid-7  ...  [22.0, 35.400000000000006, 38.76c0000000000005,...
+26    new-ssid-7  ...                                             [26.0]
+27    new-ssid-7  ...  [76.0, 69.0, 63.2, 57.480000000000004, 52.4320...
+28    new-ssid-8  ...                                             [92.0]
+29    new-ssid-8  ...  [10.0, 10.8, 14.620000000000001, 32.758, 30.18...
+30    new-ssid-8  ...  [80.0, 74.8, 68.32, 66.588, 60.72919999999999,...
+31    new-ssid-9  ...                                             [10.0]
+32    new-ssid-9  ...  [21.0, 21.200000000000003, 30.78, 30.102000000...
+33    new-ssid-9  ...                [9.0, 11.7, 25.23, 23.007, 22.1063]
+
+[34 rows x 5 columns]
+current_time Before Monitoring Interval 9
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 970 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 971 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 972 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 973 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 974 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 975 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 976 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 977 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 978 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 979 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 980 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 981 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-9
+previous_ssid::::HISTORY_SESS_01 new-ssid-9
+HELO Before DF
+grouped_df_EWMA::::___    previous_SSID  ...                                                WMA
+0     new-ssid-0  ...                                             [10.0]
+1     new-ssid-0  ...                                 [10.0, 10.0, 10.0]
+2     new-ssid-0  ...                                       [10.0, 10.0]
+3     new-ssid-1  ...  [8.0, 8.5, 9.05, 9.845000000000002, 9.46050000...
+4     new-ssid-1  ...  [6.0, 8.3, 35.17, 37.753, 34.4777, 32.22993, 3...
+5     new-ssid-2  ...  [12.0, 11.9, 13.510000000000002, 13.0590000000...
+6     new-ssid-2  ...  [30.0, 28.3, 26.270000000000003, 24.7430000000...
+7     new-ssid-2  ...                                         [3.0, 4.2]
+8     new-ssid-2  ...       [67.0, 61.50000000000001, 56.75000000000001]
+9     new-ssid-3  ...  [22.0, 20.400000000000002, 19.76, 20.884000000...
+10    new-ssid-3  ...                                       [27.0, 31.3]
+11    new-ssid-3  ...   [15.0, 14.9, 15.51, 14.658999999999999, 21.9931]
+12    new-ssid-4  ...  [96.0, 88.2, 98.38000000000001, 91.04200000000...
+13    new-ssid-4  ...                                              [8.0]
+14    new-ssid-4  ...  [3.0, 4.1000000000000005, 11.990000000000002, ...
+15    new-ssid-4  ...  [16.0, 16.9, 15.709999999999999, 14.8389999999...
+16    new-ssid-5  ...                                       [16.0, 17.9]
+17    new-ssid-5  ...                                 [15.0, 14.0, 13.0]
+18    new-ssid-5  ...                                         [7.0, 8.2]
+19    new-ssid-5  ...                                             [26.0]
+20    new-ssid-5  ...             [10.0, 9.4, 10.66, 11.394000000000002]
+21    new-ssid-6  ...  [29.0, 28.700000000000003, 27.930000000000003,...
+22    new-ssid-6  ...  [6.0, 6.0, 10.200000000000001, 13.780000000000...
+23    new-ssid-6  ...                                             [76.0]
+24    new-ssid-6  ...  [12.0, 11.600000000000001, 12.14, 11.326, 14.8...
+25    new-ssid-7  ...  [22.0, 35.400000000000006, 38.760000000000005,...
+26    new-ssid-7  ...                                             [26.0]
+27    new-ssid-7  ...  [76.0, 69.0, 63.2, 57.480000000000004, 52.4320...
+28    new-ssid-8  ...                                             [92.0]
+29    new-ssid-8  ...  [10.0, 10.8, 14.620000000000001, 32.758, 30.18...
+30    new-ssid-8  ...  [80.0, 74.8, 68.32, 66.588, 60.72919999999999,...
+31    new-ssid-9  ...                                             [10.0]
+32    new-ssid-9  ...  [21.0, 21.200000000000003, 30.78, 30.102000000...
+33    new-ssid-9  ...  [9.0, 11.7, 25.23, 23.007, 22.1063, 23.0956700...
+
+[34 rows x 5 columns]
+current_time Before Monitoring Interval 21
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 982 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-9
+previous_SSID::::^^^AASASSSAA new-ssid-9
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-9-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 983 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-9
+previous_ssid::::HISTORY_SESS_01 new-ssid-9
+HELO Before DF
+grouped_df_EWMA::::___    previous_SSID  ...                                                WMA
+0     new-ssid-0  ...                                             [10.0]
+1     new-ssid-0  ...                                 [10.0, 10.0, 10.0]
+2     new-ssid-0  ...                                       [10.0, 10.0]
+3     new-ssid-1  ...  [8.0, 8.5, 9.05, 9.845000000000002, 9.46050000...
+4     new-ssid-1  ...  [6.0, 8.3, 35.17, 37.753, 34.4777, 32.22993, 3...
+5     new-ssid-2  ...  [12.0, 11.9, 13.510000000000002, 13.0590000000...
+6     new-ssid-2  ...  [30.0, 28.3, 26.270000000000003, 24.7430000000...
+7     new-ssid-2  ...                                         [3.0, 4.2]
+8     new-ssid-2  ...       [67.0, 61.50000000000001, 56.75000000000001]
+9     new-ssid-3  ...  [22.0, 20.400000000000002, 19.76, 20.884000000...
+10    new-ssid-3  ...                                       [27.0, 31.3]
+11    new-ssid-3  ...   [15.0, 14.9, 15.51, 14.658999999999999, 21.9931]
+12    new-ssid-4  ...  [96.0, 88.2, 98.38000000000001, 91.04200000000...
+13    new-ssid-4  ...                                              [8.0]
+14    new-ssid-4  ...  [3.0, 4.1000000000000005, 11.990000000000002, ...
+15    new-ssid-4  ...  [16.0, 16.9, 15.709999999999999, 14.8389999999...
+16    new-ssid-5  ...                                       [16.0, 17.9]
+17    new-ssid-5  ...                                 [15.0, 14.0, 13.0]
+18    new-ssid-5  ...                                         [7.0, 8.2]
+19    new-ssid-5  ...                                             [26.0]
+20    new-ssid-5  ...             [10.0, 9.4, 10.66, 11.394000000000002]
+21    new-ssid-6  ...  [29.0, 28.700000000000003, 27.930000000000003,...
+22    new-ssid-6  ...  [6.0, 6.0, 10.200000000000001, 13.780000000000...
+23    new-ssid-6  ...                                             [76.0]
+24    new-ssid-6  ...  [12.0, 11.600000000000001, 12.14, 11.326, 14.8...
+25    new-ssid-7  ...  [22.0, 35.400000000000006, 38.760000000000005,...
+26    new-ssid-7  ...                                             [26.0]
+27    new-ssid-7  ...  [76.0, 69.0, 63.2, 57.480000000000004, 52.4320...
+28    new-ssid-8  ...                                             [92.0]
+29    new-ssid-8  ...  [10.0, 10.8, 14.620000000000001, 32.758, 30.18...
+30    new-ssid-8  ...  [80.0, 74.8, 68.32, 66.588, 60.72919999999999,...
+31    new-ssid-9  ...                                             [10.0]
+32    new-ssid-9  ...  [21.0, 21.200000000000003, 30.78, 30.102000000...
+33    new-ssid-9  ...  [9.0, 11.7, 25.23, 23.007, 22.1063, 23.0956700...
+
+[34 rows x 5 columns]
+current_time Before Monitoring Interval 23
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 984 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 985 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 986 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 987 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 988 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 989 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 990 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 991 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 992 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 993 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 994 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-1
+previous_SSID::::^^^AASASSSAA new-ssid-1
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-1-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 995 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-1
+previous_ssid::::HISTORY_SESS_01 new-ssid-1
+HELO Before DF
+grouped_df_EWMA::::___    previous_SSID  ...                                                WMA
+0     new-ssid-0  ...                                             [10.0]
+1     new-ssid-0  ...                                 [10.0, 10.0, 10.0]
+2     new-ssid-0  ...                                       [10.0, 10.0]
+3     new-ssid-1  ...  [8.0, 8.5, 9.05, 9.845000000000002, 9.46050000...
+4     new-ssid-1  ...  [6.0, 8.3, 35.17, 37.753, 34.4777, 32.22993, 3...
+5     new-ssid-2  ...  [12.0, 11.9, 13.510000000000002, 13.0590000000...
+6     new-ssid-2  ...  [30.0, 28.3, 26.270000000000003, 24.7430000000...
+7     new-ssid-2  ...                                         [3.0, 4.2]
+8     new-ssid-2  ...       [67.0, 61.50000000000001, 56.75000000000001]
+9     new-ssid-3  ...  [22.0, 20.400000000000002, 19.76, 20.884000000...
+10    new-ssid-3  ...                                       [27.0, 31.3]
+11    new-ssid-3  ...   [15.0, 14.9, 15.51, 14.658999999999999, 21.9931]
+12    new-ssid-4  ...  [96.0, 88.2, 98.38000000000001, 91.04200000000...
+13    new-ssid-4  ...                                              [8.0]
+14    new-ssid-4  ...  [3.0, 4.1000000000000005, 11.990000000000002, ...
+15    new-ssid-4  ...  [16.0, 16.9, 15.709999999999999, 14.8389999999...
+16    new-ssid-5  ...                                       [16.0, 17.9]
+17    new-ssid-5  ...                                 [15.0, 14.0, 13.0]
+18    new-ssid-5  ...                                         [7.0, 8.2]
+19    new-ssid-5  ...                                             [26.0]
+20    new-ssid-5  ...             [10.0, 9.4, 10.66, 11.394000000000002]
+21    new-ssid-6  ...  [29.0, 28.700000000000003, 27.930000000000003,...
+22    new-ssid-6  ...  [6.0, 6.0, 10.200000000000001, 13.780000000000...
+23    new-ssid-6  ...                                             [76.0]
+24    new-ssid-6  ...  [12.0, 11.600000000000001, 12.14, 11.326, 14.8...
+25    new-ssid-7  ...  [22.0, 35.400000000000006, 38.760000000000005,...
+26    new-ssid-7  ...                                             [26.0]
+27    new-ssid-7  ...  [76.0, 69.0, 63.2, 57.480000000000004, 52.4320...
+28    new-ssid-8  ...                                             [92.0]
+29    new-ssid-8  ...  [10.0, 10.8, 14.620000000000001, 32.758, 30.18...
+30    new-ssid-8  ...  [80.0, 74.8, 68.32, 66.588, 60.72919999999999,...
+31    new-ssid-9  ...                                             [10.0]
+32    new-ssid-9  ...  [21.0, 21.200000000000003, 30.78, 30.102000000...
+33    new-ssid-9  ...  [9.0, 11.7, 25.23, 23.007, 22.1063, 23.0956700...
+
+[34 rows x 5 columns]
+current_time Before Monitoring Interval 35
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 996 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 997 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 998 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 999 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1000 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-8
+previous_SSID::::^^^AASASSSAA new-ssid-8
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-8-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1001 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-8
+previous_ssid::::HISTORY_SESS_01 new-ssid-8
+HELO Before DF
+grouped_df_EWMA::::___    previous_SSID  ...                                                WMA
+0     new-ssid-0  ...                                             [10.0]
+1     new-ssid-0  ...                                 [10.0, 10.0, 10.0]
+2     new-ssid-0  ...                                       [10.0, 10.0]
+3     new-ssid-1  ...  [8.0, 8.5, 9.05, 9.845000000000002, 9.46050000...
+4     new-ssid-1  ...  [6.0, 8.3, 35.17, 37.753, 34.4777, 32.22993, 3...
+5     new-ssid-2  ...  [12.0, 11.9, 13.510000000000002, 13.0590000000...
+6     new-ssid-2  ...  [30.0, 28.3, 26.270000000000003, 24.7430000000...
+7     new-ssid-2  ...                                         [3.0, 4.2]
+8     new-ssid-2  ...       [67.0, 61.50000000000001, 56.75000000000001]
+9     new-ssid-3  ...  [22.0, 20.400000000000002, 19.76, 20.884000000...
+10    new-ssid-3  ...                                       [27.0, 31.3]
+11    new-ssid-3  ...   [15.0, 14.9, 15.51, 14.658999999999999, 21.9931]
+12    new-ssid-4  ...  [96.0, 88.2, 98.38000000000001, 91.04200000000...
+13    new-ssid-4  ...                                              [8.0]
+14    new-ssid-4  ...  [3.0, 4.1000000000000005, 11.990000000000002, ...
+15    new-ssid-4  ...  [16.0, 16.9, 15.709999999999999, 14.8389999999...
+16    new-ssid-5  ...                                       [16.0, 17.9]
+17    new-ssid-5  ...                                 [15.0, 14.0, 13.0]
+18    new-ssid-5  ...                                         [7.0, 8.2]
+19    new-ssid-5  ...                                             [26.0]
+20    new-ssid-5  ...             [10.0, 9.4, 10.66, 11.394000000000002]
+21    new-ssid-6  ...  [29.0, 28.700000000000003, 27.930000000000003,...
+22    new-ssid-6  ...  [6.0, 6.0, 10.200000000000001, 13.780000000000...
+23    new-ssid-6  ...                                             [76.0]
+24    new-ssid-6  ...  [12.0, 11.600000000000001, 12.14, 11.326, 14.8...
+25    new-ssid-7  ...  [22.0, 35.400000000000006, 38.760000000000005,...
+26    new-ssid-7  ...                                             [26.0]
+27    new-ssid-7  ...  [76.0, 69.0, 63.2, 57.480000000000004, 52.4320...
+28    new-ssid-8  ...                                             [92.0]
+29    new-ssid-8  ...  [10.0, 10.8, 14.620000000000001, 32.758, 30.18...
+30    new-ssid-8  ...  [80.0, 74.8, 68.32, 66.588, 60.72919999999999,...
+31    new-ssid-9  ...                                             [10.0]
+32    new-ssid-9  ...  [21.0, 21.200000000000003, 30.78, 30.102000000...
+33    new-ssid-9  ...  [9.0, 11.7, 25.23, 23.007, 22.1063, 23.0956700...
+
+[34 rows x 5 columns]
+current_time Before Monitoring Interval 41
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1002 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1003 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1004 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1005 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1006 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-2
+current_time 1007 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-2
+previous_ssid::::HISTORY_SESS_01 new-ssid-2
+HELO Before DF
+grouped_df_EWMA::::___    previous_SSID  ...                                                WMA
+0     new-ssid-0  ...                                             [10.0]
+1     new-ssid-0  ...                                 [10.0, 10.0, 10.0]
+2     new-ssid-0  ...                                       [10.0, 10.0]
+3     new-ssid-1  ...  [8.0, 8.5, 9.05, 9.845000000000002, 9.46050000...
+4     new-ssid-1  ...  [6.0, 8.3, 35.17, 37.753, 34.4777, 32.22993, 3...
+5     new-ssid-2  ...  [12.0, 11.9, 13.510000000000002, 13.0590000000...
+6     new-ssid-2  ...  [30.0, 28.3, 26.270000000000003, 24.7430000000...
+7     new-ssid-2  ...                                         [3.0, 4.2]
+8     new-ssid-2  ...       [67.0, 61.50000000000001, 56.75000000000001]
+9     new-ssid-3  ...  [22.0, 20.400000000000002, 19.76, 20.884000000...
+10    new-ssid-3  ...                                       [27.0, 31.3]
+11    new-ssid-3  ...   [15.0, 14.9, 15.51, 14.658999999999999, 21.9931]
+12    new-ssid-4  ...  [96.0, 88.2, 98.38000000000001, 91.04200000000...
+13    new-ssid-4  ...                                              [8.0]
+14    new-ssid-4  ...  [3.0, 4.1000000000000005, 11.990000000000002, ...
+15    new-ssid-4  ...  [16.0, 16.9, 15.709999999999999, 14.8389999999...
+16    new-ssid-5  ...                                       [16.0, 17.9]
+17    new-ssid-5  ...                                 [15.0, 14.0, 13.0]
+18    new-ssid-5  ...                                         [7.0, 8.2]
+19    new-ssid-5  ...                                             [26.0]
+20    new-ssid-5  ...             [10.0, 9.4, 10.66, 11.394000000000002]
+21    new-ssid-6  ...  [29.0, 28.700000000000003, 27.930000000000003,...
+22    new-ssid-6  ...  [6.0, 6.0, 10.200000000000001, 13.780000000000...
+23    new-ssid-6  ...                                             [76.0]
+24    new-ssid-6  ...  [12.0, 11.600000000000001, 12.14, 11.326, 14.8...
+25    new-ssid-7  ...  [22.0, 35.400000000000006, 38.760000000000005,...
+26    new-ssid-7  ...                                             [26.0]
+27    new-ssid-7  ...  [76.0, 69.0, 63.2, 57.480000000000004, 52.4320...
+28    new-ssid-8  ...                                             [92.0]
+29    new-ssid-8  ...  [10.0, 10.8, 14.620000000000001, 32.758, 30.18...
+30    new-ssid-8  ...  [80.0, 74.8, 68.32, 66.588, 60.72919999999999,...
+31    new-ssid-9  ...                                             [10.0]
+32    new-ssid-9  ...  [21.0, 21.200000000000003, 30.78, 30.102000000...
+33    new-ssid-9  ...  [9.0, 11.7, 25.23, 23.007, 22.1063, 23.0956700...
+
+[34 rows x 5 columns]
+current_time Before Monitoring Interval 47
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1008 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1009 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1010 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1011 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1012 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1013 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1014 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1015 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1016 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1017 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1018 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1019 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1020 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1021 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1022 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1023 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1024 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1025 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1026 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1027 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1028 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1029 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1030 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1031 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-3
+previous_SSID::::^^^AASASSSAA new-ssid-3
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-3-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-3
+current_time 1032 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-3
+previous_ssid::::HISTORY_SESS_01 new-ssid-3
+HELO Before DF
+grouped_df_EWMA::::___    previous_SSID  ...                                                WMA
+0     new-ssid-0  ...                                             [10.0]
+1     new-ssid-0  ...                                 [10.0, 10.0, 10.0]
+2     new-ssid-0  ...                                       [10.0, 10.0]
+3     new-ssid-1  ...  [8.0, 8.5, 9.05, 9.845000000000002, 9.46050000...
+4     new-ssid-1  ...  [6.0, 8.3, 35.17, 37.753, 34.4777, 32.22993, 3...
+5     new-ssid-2  ...  [12.0, 11.9, 13.510000000000002, 13.0590000000...
+6     new-ssid-2  ...  [30.0, 28.3, 26.270000000000003, 24.7430000000...
+7     new-ssid-2  ...                                         [3.0, 4.2]
+8     new-ssid-2  ...       [67.0, 61.50000000000001, 56.75000000000001]
+9     new-ssid-3  ...  [22.0, 20.400000000000002, 19.76, 20.884000000...
+10    new-ssid-3  ...                                [27.0, 31.3, 30.67]
+11    new-ssid-3  ...   [15.0, 14.9, 15.51, 14.658999999999999, 21.9931]
+12    new-ssid-4  ...  [96.0, 88.2, 98.38000000000001, 91.04200000000...
+13    new-ssid-4  ...                                              [8.0]
+14    new-ssid-4  ...  [3.0, 4.1000000000000005, 11.990000000000002, ...
+15    new-ssid-4  ...  [16.0, 16.9, 15.709999999999999, 14.8389999999...
+16    new-ssid-5  ...                                       [16.0, 17.9]
+17    new-ssid-5  ...                                 [15.0, 14.0, 13.0]
+18    new-ssid-5  ...                                         [7.0, 8.2]
+19    new-ssid-5  ...                                             [26.0]
+20    new-ssid-5  ...             [10.0, 9.4, 10.66, 11.394000000000002]
+21    new-ssid-6  ...  [29.0, 28.700000000000003, 27.930000000000003,...
+22    new-ssid-6  ...  [6.0, 6.0, 10.200000000000001, 13.780000000000...
+23    new-ssid-6  ...                                             [76.0]
+24    new-ssid-6  ...  [12.0, 11.600000000000001, 12.14, 11.326, 14.8...
+25    new-ssid-7  ...  [22.0, 35.400000000000006, 38.760000000000005,...
+26    new-ssid-7  ...                                             [26.0]
+27    new-ssid-7  ...  [76.0, 69.0, 63.2, 57.480000000000004, 52.4320...
+28    new-ssid-8  ...                                             [92.0]
+29    new-ssid-8  ...  [10.0, 10.8, 14.620000000000001, 32.758, 30.18...
+30    new-ssid-8  ...  [80.0, 74.8, 68.32, 66.588, 60.72919999999999,...
+31    new-ssid-9  ...                                             [10.0]
+32    new-ssid-9  ...  [21.0, 21.200000000000003, 30.78, 30.102000000...
+33    new-ssid-9  ...  [9.0, 11.7, 25.23, 23.007, 22.1063, 23.0956700...
+
+[34 rows x 5 columns]
+current_time Before Monitoring Interval 72
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1033 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1034 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1035 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1036 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1037 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1038 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1039 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1040 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1041 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1042 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1043 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1044 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1045 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1046 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1047 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1048 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1049 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1050 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1051 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1052 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1053 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1054 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1055 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1056 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1057 end_time 2400
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh1-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh2-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-2
+previous_SSID::::^^^AASASSSAA new-ssid-2
+-----------veh3-wlan0 does NOT change its ssid and remains at new-ssid-2-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-7
+previous_SSID::::^^^AASASSSAA new-ssid-7
+-----------veh4-wlan0 does NOT change its ssid and remains at new-ssid-7-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-6
+previous_SSID::::^^^AASASSSAA new-ssid-6
+-----------veh5-wlan0 does NOT change its ssid and remains at new-ssid-6-------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+next_SSID:::: new-ssid-5
+previous_SSID::::^^^AASASSSAA new-ssid-5
+-----------veh6-wlan0 does NOT change its ssid and remains at new-ssid-5-------------
+All workers finished
+current_ssid:::::ASASAS new-ssid-5
+current_time 1058 end_time 2400
+
